@@ -1,0 +1,100 @@
+/* Colour scheme http://www.onextrapixel.com/2013/10/25/40-stunning-website-designs-with-great-color-schemes/ using Glue Pro */
+.main {
+	/*background-color: DarkOliveGreen;*/
+	background-color: #e3dec1;
+	border-radius: 15px;
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	min-height: 800px;
+	color: #000078;
+	font-family: 'Open Sans', sans-serif;
+}
+header {
+	/*background-color: Chartreuse;*/
+	/* background-color: #B94629; */
+	background-color: #AA0078;
+	border-radius: 15px 15px 0 0;
+	padding: 10px 10px 0 10px;
+	color: white;
+}
+ul {
+	margin-left: -45px;
+	text-align: left;
+}
+li {
+	display: inline;
+	/* background: #E89F65; */
+	background-color: #e3dec1;
+	border-radius: 5px 5px 0 0;
+	margin-left: -5px;
+	padding: 0 5px 0 5px;
+	border-bottom: none;
+}
+a {
+	color: #000078;
+	text-decoration: none;
+	font-weight: bold;
+}
+h1 {
+	font-size: 35px;
+	margin: 10px 0 0 0;
+}
+.thumbnail {
+	height: 150px;
+	width: 150px;
+}
+.item {
+	display: inline-block;
+	padding: 60px;
+	margin-top: 40px;
+	width: 200px;
+	height: 200px;
+	/*float: left;*/
+}
+#info {
+	position: relative;
+	top: 200px;
+}
+a h2 {
+	font-size: 25px;
+	/* color: #393939; */
+	color: #000078;
+}
+p {
+	font-size: 18px;
+}
+.fullsize {
+	width: 100%;
+}
+/*.popup {
+	display: none;
+	position: absolute;
+	margin: 0 auto;
+	z-index: 1;
+	max-width: 500px;
+	max-height: 500px;
+	top: 5%;
+}*/
+#arrow {
+	font-size: 0;
+	float: left;
+}
+#triangle {
+	width: 0; 
+	height: 0; 
+	border-bottom: 10px solid transparent;  /* left arrow slant */
+	border-top: 10px solid transparent; /* right arrow slant */
+	border-right: 20px solid #000078; /* bottom, add background color here */
+	display: inline-block;
+}
+#rectangle {
+	background: #000078;
+	height: 20px;
+	width: 100px;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 20px;
+	color: white;
+	position: absolute;
+}
